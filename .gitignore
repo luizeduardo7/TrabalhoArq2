@@ -8,4 +8,3 @@ hello_avx.c
 mask_load.c
 prg.exe
 oto.c
-.gitignore

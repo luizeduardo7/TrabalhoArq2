@@ -28,7 +28,7 @@ int main(){
     
     __m256 result = _mm256_fmaddsub_ps(_mm256_castps128_ps256(avec), vecb, cvec);
     float* res = (float*)&result;
-    printf("R(0)= %lf R(1)= %lf R(2)= %lf R(3)= %lf R(4)= %lf R(5)= %lf R(6)= %lf R(7)= %lf \n", res[0], res[1], res[2], res[3], res[4], res[5], res[6], res[7]);
+    printf("R(0)= %lf R(1)= %lf R(2)= %lf R(3)= %lf R(4)= %lf R(5)= %lf R(6)= %lf R(7)= %lf \n", res[0], res[1], res[2], res[3], res[4], res[5], res[6], res[7] );
 
     return 0;
     
